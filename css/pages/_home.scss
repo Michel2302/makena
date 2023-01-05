@@ -1,0 +1,130 @@
+.welcome{
+    background: url(../img/palm-bg.jpg),center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    
+}
+
+.wlc-img{
+    background: url(../img/surfer-overlay.jpg) center/cover no-repeat;
+    
+    width:70% ;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.welcome-txt {
+  background: white;
+  color: black;
+  height: 330px;
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50% , -50%);
+  padding: 40px;
+  h2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a72c2a;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 18px;
+    margin: 0 0 25px 0;
+}
+h3{
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 70px;
+    margin: 0;
+    color: #293a77;
+}
+}
+
+.family{
+    background: white;
+    padding: 130px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h3{
+
+        font-weight: 200;
+        font-style: normal;
+        font-size: 44px;
+        line-height: 70px;
+        margin: 0;
+        color: #293a77;
+    }
+}
+.family > * {
+    width: 35%;
+}
+
+.family-right{
+    line-height: 30px;
+    color: #293a77;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.banner{
+    background: url(../img/makena.jpg) center/cover no-repeat;
+    height: 100vh;
+}
+
+.gray{
+    background: #f3fafc;
+    height: 100vh;
+}
+
+.hideaway {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 250px;
+}
+
+.hideaway > * {
+    width: 40%;
+}
+
+.hideaway-img {
+    height: 100px;
+    box-shadow: 40px 40px rgb(0 0 0 / 35%);
+}
+
+/* residences */ 
+.hideaway-residences {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 250px;
+    background: #f3fafc;
+}
+
+.hideaway-residences > * {
+    width: 40%;
+}
+.residences-image img {
+    width: 15%;
+    box-shadow: -40px 40px rgb(0 0 0 / 35%);
+}
+
+.residences-txt {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,53 @@
+// header {
+//     background:$couleur;
+//     @media screen and (max-width:1024px) {
+//         background:red;
+//     }
+//     @include transition(1s);
+//     &:hover {
+//         background:pink;
+//     }
+//     h1 {
+//         font-size: 100px;
+//     }
+// }
+
+header{
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+video{
+    object-fit: cover;
+}
+.wrapper{
+    position: absolute;
+   top:10%;
+   left: 10%;
+   right: 10%;
+
+   .main-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    a{
+        margin-left: 5%;
+        text-decoration: none;
+        overflow: hidden;
+        color: white;
+    }
+    @media screen and (max-width:1200px) {
+        display: none; 
+    }
+    }
+    }
+    .burger-menu{
+        @media screen and (min-width:1000px) {
+            display: block;
+            
+        }
+    }
+.header-txt{
+color: white;
+}
